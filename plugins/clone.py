@@ -47,6 +47,7 @@ async def clone(client, message):
             'name': bot.first_name,
             'token': bot_token,
             'username': bot.username
+            'update' : jn_bots
         }
         mongo_db.bots.insert_one(details)
         await msg.edit_text(f"<b>sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴏɴᴇᴅ ʏᴏᴜʀ ʙᴏᴛ: @{bot.username}.</b>")
