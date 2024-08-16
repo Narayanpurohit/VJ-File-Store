@@ -33,6 +33,7 @@ async def clone(client, message):
     user_id = message.from_user.id
     msg = await message.reply_text("**👨‍💻 ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ ɪ ᴀᴍ ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʙᴏᴛ ❣️**")
     try:
+        jn_bots="jn_bots"
         vj = Client(
             f"{bot_token}", API_ID, API_HASH,
             bot_token=bot_token,
