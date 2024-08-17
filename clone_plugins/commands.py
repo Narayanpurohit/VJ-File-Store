@@ -238,6 +238,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         owner = mongo_db.bots.find_one({'bot_id': id})
         ownerid = int(owner['user_id'])
         reply_markup = InlineKeyboardMarkup(buttons)
+        print(ownerid.first_name)
         firstname= ownerid.first_name
         await query.message.edit_text(
             text=script.CABOUT_TXT.format(me2, ownerid,firstname),
