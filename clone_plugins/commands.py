@@ -240,6 +240,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
         try:
             owner = mongo_db.bots.find_one({'bot_id': id})
             dev = owner['firstname']
+            print(dev+"hi")
             
         except Exception as e:
             print(e)
