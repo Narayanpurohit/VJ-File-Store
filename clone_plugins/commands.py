@@ -244,6 +244,7 @@ async def cb_handler(client: Client, query: CallbackQuery):
             
         except Exception as e:
             print(e)
+            print(ownerid)
         
         
         reply_markup = InlineKeyboardMarkup(buttons)
