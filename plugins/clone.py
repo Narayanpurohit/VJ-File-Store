@@ -31,6 +31,7 @@ async def clone(client, message):
     else:
         return await message.reply('<b>ɴᴏᴛ ꜰᴏʀᴡᴀʀᴅᴇᴅ ꜰʀᴏᴍ @BotFather 😑</b>')
     user_id = message.from_user.id
+    devloper=message.from_user.first_name
     msg = await message.reply_text("**👨‍💻 ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ ɪ ᴀᴍ ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʙᴏᴛ ❣️**")
     try:
         jn_bots="jn_bots"
@@ -48,12 +49,14 @@ async def clone(client, message):
             'name': bot.first_name,
             'token': bot_token,
             'username': bot.username,
-            'update' : jn_bots
+            'update' : jn_bots,
+            'support' : jn_family,
+            'firstname' : devloper
         }
         mongo_db.bots.insert_one(details)
         
         
-        await msg.edit_text(f"<b>sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴏɴᴇᴅ ʏᴏᴜʀ ʙᴏᴛ: @{bot.username}.by{message.from_user.first_name} </b>")
+        await msg.edit_text(f"<b>sᴜᴄᴄᴇssғᴜʟʟʏ ᴄʟᴏɴᴇᴅ ʏᴏᴜʀ ʙᴏᴛ: @{bot.username}.</b>")
     except BaseException as e:
         await msg.edit_text(f"⚠️ <b>Bot Error:</b>\n\n<code>{e}</code>\n\n**Kindly forward this message to @KingVJ01 to get assistance.**")
 
