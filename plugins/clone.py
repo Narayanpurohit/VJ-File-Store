@@ -31,7 +31,7 @@ async def clone(client, message):
     else:
         return await message.reply('<b>ɴᴏᴛ ꜰᴏʀᴡᴀʀᴅᴇᴅ ꜰʀᴏᴍ @BotFather 😑</b>')
     user_id = message.from_user.id
-    devloper=str(message.from_user.first_name)
+    devloper = str(message.from_user.first_name)
     print(devloper)
     msg = await message.reply_text("**👨‍💻 ᴡᴀɪᴛ ᴀ ᴍɪɴᴜᴛᴇ ɪ ᴀᴍ ᴄʀᴇᴀᴛɪɴɢ ʏᴏᴜʀ ʙᴏᴛ ❣️**")
     try:
