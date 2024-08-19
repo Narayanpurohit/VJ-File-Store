@@ -51,7 +51,7 @@ async def clone(client, message):
             'token': bot_token,
             'username': bot.username,
             'update' : jn_bots,
-            'support' : jn_family,
+            'support' : "jn_family",
             'firstname' : devloper
         }
         mongo_db.bots.insert_one(details)
