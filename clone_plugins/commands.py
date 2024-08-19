@@ -238,13 +238,15 @@ async def cb_handler(client: Client, query: CallbackQuery):
         owner = mongo_db.bots.find_one({'bot_id': id})
         ownerid = int(owner['user_id'])
         try:
-            owner = mongo_db.bots.find_one({'bot_id': id})
-            dev = owner['firstname']
-            print(dev+"hi")
             
-        except Exception as e:
-            print(e)
-            print(ownerid)
+            if owner:
+                firstname = owner.get('firstname')
+                print(f"Firstname: {firstname}")
+            else:
+                print("Bot not found in the database.")
+            
+        except BaseException as e:
+            print(f"Error: {e}")
         
         
         reply_markup = InlineKeyboardMarkup(buttons)
