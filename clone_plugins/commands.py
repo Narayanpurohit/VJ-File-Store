@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+.# Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -237,7 +237,12 @@ async def cb_handler(client: Client, query: CallbackQuery):
         id = client.me.id
         owner = mongo_db.bots.find_one({'bot_id': id})
         ownerid = int(owner['user_id'])
-        dev = int(owner['firstname'])
+        try:
+           dev = int(owner['firstname'])
+        except Exception as e:
+            print(e)
+        
+        
         reply_markup = InlineKeyboardMarkup(buttons)
         
         await query.message.edit_text(
