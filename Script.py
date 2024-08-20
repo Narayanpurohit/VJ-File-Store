@@ -1,4 +1,4 @@
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -9,7 +9,7 @@ class script(object):
 
 ᴍᴀɪɴᴛᴀɪɴ ʙʏ :<a href=https://t.me/jn_drv>𓆩ʜᴀᴘᴘʏ𓆪</a></b>"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -20,7 +20,7 @@ sɪᴢᴇ ⚙️: {file_size}
 
 Jᴏɪɴ [ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ](https://t.me/jn_bots)</b>""" 
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -34,7 +34,7 @@ Cᴜʀʀᴇɴᴛ Sʜᴏʀᴛᴇɴᴇʀ API:</b> `{shortener_api}`
 
 If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -43,7 +43,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 ᴍᴀɪɴᴛᴀɪɴ ʙʏ :<a href=https://t.me/jn_drv>𓆩ʜᴀᴘᴘʏ𓆪</a>
 </b>"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -68,10 +68,10 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
 
-🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>hii</a></b>
+🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>ᴅᴇᴠᴇʟᴏᴘᴇʀ </a></b>
 
 """
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -87,7 +87,7 @@ First Send /clone command then follow below steps.
 
 ᴛʜᴇɴ ɪ ᴀᴍ ᴛʀʏ ᴛᴏ ᴄʀᴇᴀᴛᴇ ᴀ ᴄᴏᴘʏ ʙᴏᴛ ᴏғ ᴍᴇ ғᴏʀ ʏᴏᴜ ᴏɴʟʏ 😌</b>"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -96,7 +96,7 @@ First Send /clone command then follow below steps.
 🔻 /link - ʀᴇᴘʟʏ ᴛᴏ ᴀ ᴠɪᴅᴇᴏ ᴏʀ ғɪʟᴇ ᴛᴏ ɢᴇᴛ sʜᴀʀᴀʙʟᴇ ʟɪɴᴋ
 
 🔻 /batch - sᴇɴᴅ ғɪʀsᴛ ʟɪɴᴋ ᴏғ ғɪʟᴇ sᴛᴏʀᴇ ᴄʜᴀɴɴᴇʟ ᴘᴏsᴛ ᴛʜᴇɴ ʟᴀsᴛ ᴘᴏsᴛ ʟɪɴᴋ ᴀɴᴅ ᴍᴀᴋᴇ sᴜʀᴇ ʙᴏᴛ ɪs ᴀᴅᴍɪɴ ɪɴ ʏᴏᴜʀ ғɪʟᴇ sᴛᴏʀᴇ ᴄʜᴀɴɴᴇʟ.
-ᴇx - /batch https://t.me/vj_botz/25 https://t.me/vj_botz/30
+ᴇx - /batch https://t.me/Jn_bots/25 https://t.me/Jn_bots/30
 
 🔻 /base_site - ᴜsᴇ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ sᴇᴛ ᴜʀʟ sʜᴏʀᴛɴᴇʀ ʟɪɴᴋ ᴅᴏᴍᴀɪɴ 
 ᴇx - /base_site ʏᴏᴜʀᴅᴏᴍᴀɪɴ.ᴄᴏᴍ
@@ -109,7 +109,7 @@ First Send /clone command then follow below steps.
 
 🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -126,7 +126,7 @@ First Send /clone command then follow below steps.
 
 🔻 /broadcast - ʀᴇᴘʟʏ ᴛᴏ ᴛʜɪs ᴄᴏᴍᴍᴀɴᴅ ᴛᴏ ᴀ ᴍᴇssᴀɢᴇ ᴛᴏ ʙʀᴏᴀᴅᴄᴀsᴛ (ʙᴏᴛ ᴏᴡɴᴇʀ ᴏɴʟʏ)</b>"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
 
@@ -144,6 +144,6 @@ Nᴀᴍᴇ - {}</b>
 🌐 Tɪᴍᴇᴢᴏɴᴇ : <code>Asia/Kolkata</code>
 🛠️ Bᴜɪʟᴅ Sᴛᴀᴛᴜs: <code>v2.7.1 [ Sᴛᴀʙʟᴇ ]</code></b>"""
 
-# Don't Remove Credit Tg - @VJ_Botz
+# Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
