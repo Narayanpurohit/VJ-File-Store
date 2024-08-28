@@ -7,7 +7,7 @@ class script(object):
     START_TXT = """<b>Hᴇʟʟᴏ {},ᴍʏ ɴᴀᴍᴇ {}
 ɪ'ᴍ ᴍᴏꜱᴛ ᴘᴏᴡᴇʀꜰᴜʟ ꜰɪʟᴇ ꜱʜᴀʀɪɴɢ ʙᴏᴛ ᴡɪᴛʜ ᴄʟᴏɴᴇ,ᴄᴜꜱᴛᴏᴍ ᴜʀʟ ꜱʜᴏʀᴛɴᴇʀ ᴀɴᴅ ᴀᴜᴛᴏ ᴅᴇʟᴇᴛᴇ ꜰᴇᴛᴜʀᴇ 
 
-ᴍᴀɪɴᴛᴀɪɴ ʙʏ :<a href=https://t.me/jn_drv>𓆩ʜᴀᴘᴘʏ𓆪</a></b>"""
+ᴍᴀɪɴᴛᴀɪɴ ʙʏ :<a href=https://t.me/jn_dev>𓆩ʜᴀᴘᴘʏ𓆪</a></b>"""
 
 # Don't Remove Credit Tg - @Jn_bots
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
