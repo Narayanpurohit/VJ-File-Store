@@ -407,7 +407,10 @@ async def cb_handler(client: Client, query: CallbackQuery):
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
+
     
+    if query.data == "tutorial":
+        query.message.reply_video("BAACAgQAAxkBAAJ0uWbOvZwkOrjm7x8LIJuzT7raeAkaAAJwEwAClqN4UtlPtdVT7an1NQQ", caption="Here is the tutorial video.")
     elif query.data == "start":
         buttons = [[
             InlineKeyboardButton('✯ ᴜᴘᴅᴀᴛᴇ ᴄʜᴀɴɴᴇʟ ✯', url='https://t.me/jn_bots')
