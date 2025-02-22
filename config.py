@@ -80,7 +80,7 @@ if 'DYNO' in environ:
     ON_HEROKU = True
 else:
     ON_HEROKU = False
-URL = environ.get("URL", "https://jndrive.space:8080/")
+URL = environ.get("URL", "https://jndrive.space/")
 
 
 # Don't Remove Credit Tg - @VJ_Botz
