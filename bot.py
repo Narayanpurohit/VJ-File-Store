@@ -10,7 +10,7 @@ from pathlib import Path
 from pyrogram import idle
 import logging
 import logging.config
-
+import ssl
 # Don't Remove Credit Tg - @VJ_Botz
 # Subscribe YouTube Channel For Amazing Bot https://youtube.com/@Tech_VJ
 # Ask Doubt on telegram @KingVJ01
@@ -65,6 +65,9 @@ loop = asyncio.get_event_loop()
 async def start():
     print('\n')
     print('Initalizing Tech VJ Bot')
+    # Paths to your SSL certificate and private key
+    SSL_CERT_PATH = '/www/server/panel/vhost/cert/jndrive.space/fullchain.pem'
+    SSL_KEY_PATH = '/www/server/panel/vhost/cert/jndrive.space/privkey.pem'
     bot_info = await StreamBot.get_me()
     StreamBot.username = bot_info.username
     await initialize_clients()
@@ -90,7 +93,12 @@ async def start():
     await StreamBot.send_message(chat_id=LOG_CHANNEL, text=script.RESTART_TXT.format(today, time))
     await app.setup()
     bind_address = "0.0.0.0"
-    await web.TCPSite(app, bind_address, PORT).start()
+    # Configure SSL context
+    ssl_context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
+    ssl_context.load_cert_chain(SSL_CERT_PATH, SSL_KEY_PATH)
+    #await web.TCPSite(app, bind_address, PORT).start()
+    # Start the web server with SSL
+    await web.TCPSite(app, bind_address, PORT, ssl_context=ssl_context).start()
     if CLONE_MODE == True:
         await restart_bots()
     print("Bot Started Powered By @VJ_Botz")
