@@ -5,7 +5,7 @@
 from pyrogram.errors import InputUserDeactivated, UserNotParticipant, FloodWait, UserIsBlocked, PeerIdInvalid
 from plugins.dbusers import db
 from pyrogram import Client, filters
-from config import ADMINS
+from config import ADMINS2
 import asyncio
 import datetime
 import time
@@ -38,7 +38,7 @@ async def broadcast_messages(user_id, message):
 # Ask Doubt on telegram @KingVJ01
 
 
-@Client.on_message(filters.command("broadcast") & filters.user(ADMINS) & filters.reply)
+@Client.on_message(filters.command("broadcast") & filters.user(ADMINS2) & filters.reply)
 async def verupikkals(bot, message):
     users = await db.get_all_users()
     b_msg = message.reply_to_message
